@@ -174,7 +174,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 51147681
+version_id: 60908304
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -351,15 +351,20 @@ skill_types:
 weapon_types:
 - ''
 - Axe
-- Claw
-- Spear
-- Sword
-- Katana
 - Bow
-- Dagger
+- Crossbow
+- Flail
 - Hammer
+- Heavy blade
+- Light blade
+- Mace
+- Pick
+- Polearm
+- Sling
+- Spear
 - Staff
-- Gun
+- Unarmed
+- ''
 armor_types:
 - ''
 - General Armour
