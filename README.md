@@ -5,10 +5,7 @@ RPG Maker VX Ace uses .rvdata2 files that aren't easy to version control. In ord
 
 ##### Workflow
 * Checkout projectaden from here
-* Run `rvpacker --action pack --project <path-to-project> --project-type ace` on the project to repack it for the RPG Maker tool
+* Run `pack.bat` in the `projectaden/rvpacker` folder to repack it for the RPG Maker tool
 * Load up RPG Maker and do whatever you're going to do; save the project
-* Run `rvpacker --action pack --project <path-to-project> --project-type ace` on the project
+* Run `unpack.bat` in the `projectaden/rvpacker` folder
 * Commit everything to version control (.gitignore is set to ignore the Data directory since you don't need it)
-
-##### Notes
-* `<path-to-project>` means, as you might have already realized, the path to the 'projectaden' folder. If you're executing the command from the projectaden folder itself, then you can put `.` instead of the whole path.
