@@ -5,17 +5,13 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 196
-    enemy_id: 1
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 348
-    enemy_id: 1
-  name: Slime*2
+    x: 272
+    enemy_id: 4
+  name: spider
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 335, p: [0]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -24,11 +20,11 @@
       turn_a: 0
       turn_ending: false
       enemy_hp: 50
-      switch_valid: false
+      switch_valid: true
       enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
+      actor_valid: true
+      actor_id: 3
+      enemy_valid: true
       switch_id: 1
       turn_b: 0
   id: 1
