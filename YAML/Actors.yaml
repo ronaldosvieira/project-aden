@@ -202,3 +202,24 @@
   description: "A hermit who avoids the populace by living in the\r\nmountains. He seeks the true identity of the evil star."
   max_level: 99
   icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Morrigan
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: Morrigan
+  class_id: 1
+  character_name: Morrigan2
+  id: 11
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
